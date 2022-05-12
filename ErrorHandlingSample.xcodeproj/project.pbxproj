@@ -16,6 +16,7 @@
 		F4B43951282D32FF0011B52C /* ErrorHandlingSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43950282D32FF0011B52C /* ErrorHandlingSampleTests.swift */; };
 		F4B4395B282D33000011B52C /* ErrorHandlingSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4395A282D33000011B52C /* ErrorHandlingSampleUITests.swift */; };
 		F4B4395D282D33000011B52C /* ErrorHandlingSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4395C282D33000011B52C /* ErrorHandlingSampleUITestsLaunchTests.swift */; };
+		F4B4396A282D34120011B52C /* TestErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43969282D34120011B52C /* TestErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F4B43956282D33000011B52C /* ErrorHandlingSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErrorHandlingSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B4395A282D33000011B52C /* ErrorHandlingSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingSampleUITests.swift; sourceTree = "<group>"; };
 		F4B4395C282D33000011B52C /* ErrorHandlingSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4B43969282D34120011B52C /* TestErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		F4B43939282D32FD0011B52C /* ErrorHandlingSample */ = {
 			isa = PBXGroup;
 			children = (
+				F4B4396B282D34200011B52C /* Test */,
 				F4B4393A282D32FD0011B52C /* ErrorHandlingSampleApp.swift */,
 				F4B4393C282D32FD0011B52C /* ContentView.swift */,
 				F4B4393E282D32FF0011B52C /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				F4B4395C282D33000011B52C /* ErrorHandlingSampleUITestsLaunchTests.swift */,
 			);
 			path = ErrorHandlingSampleUITests;
+			sourceTree = "<group>";
+		};
+		F4B4396B282D34200011B52C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				F4B43969282D34120011B52C /* TestErrorView.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 				F4B4393D282D32FD0011B52C /* ContentView.swift in Sources */,
 				F4B43947282D32FF0011B52C /* ErrorHandlingSample.xcdatamodeld in Sources */,
 				F4B4393B282D32FD0011B52C /* ErrorHandlingSampleApp.swift in Sources */,
+				F4B4396A282D34120011B52C /* TestErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
