@@ -25,6 +25,7 @@
 		F4B43975282D53A20011B52C /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43974282D53A20011B52C /* CustomError.swift */; };
 		F4B43977282D53EC0011B52C /* NetworkEnumError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43976282D53EC0011B52C /* NetworkEnumError.swift */; };
 		F4B43979282D54480011B52C /* SimpleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B43978282D54480011B52C /* SimpleError.swift */; };
+		F4B4397B282FF1BC0011B52C /* TestErrorUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4397A282FF1BB0011B52C /* TestErrorUseCase.swift */; };
 		FAF10FCF8EEC2BE45137733B /* Pods_ErrorHandlingSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEC9CF5646518C393775D27 /* Pods_ErrorHandlingSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		F4B43974282D53A20011B52C /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		F4B43976282D53EC0011B52C /* NetworkEnumError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEnumError.swift; sourceTree = "<group>"; };
 		F4B43978282D54480011B52C /* SimpleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleError.swift; sourceTree = "<group>"; };
+		F4B4397A282FF1BB0011B52C /* TestErrorUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestErrorUseCase.swift; sourceTree = "<group>"; };
 		F7AE2FCCA7171B83FFA202FD /* Pods-ErrorHandlingSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErrorHandlingSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ErrorHandlingSampleTests/Pods-ErrorHandlingSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FFF6A7F75386349FE21A15FB /* Pods_ErrorHandlingSample_ErrorHandlingSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErrorHandlingSample_ErrorHandlingSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				F4B43969282D34120011B52C /* TestErrorView.swift */,
+				F4B4397A282FF1BB0011B52C /* TestErrorUseCase.swift */,
 				F4B4396F282D52010011B52C /* TestErrorRepository.swift */,
 			);
 			path = Test;
@@ -456,6 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B4397B282FF1BC0011B52C /* TestErrorUseCase.swift in Sources */,
 				F4B43944282D32FF0011B52C /* Persistence.swift in Sources */,
 				F4B43979282D54480011B52C /* SimpleError.swift in Sources */,
 				F4B4396E282D3CF20011B52C /* Alert+Error.swift in Sources */,
