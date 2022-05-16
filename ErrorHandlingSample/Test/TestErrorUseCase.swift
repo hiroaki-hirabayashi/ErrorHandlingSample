@@ -13,7 +13,7 @@ import Foundation
 // * Result<T, Error> : callbackならResultを使う?
 // * Combine: cancelを考えるとCombineもいいと思う。
 // * (async/await) iOS15以降なので…
-class TestErrorUseCase {
+final class TestErrorUseCase {
     private var repository = TestErrorRepository()
 
     // ObjC時代の Pattern
