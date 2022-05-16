@@ -9,8 +9,8 @@ import Alamofire
 import Combine
 import Foundation
 
-class TestErrorRepository {
-    static var isSuccess: Bool = true
+final class TestErrorRepository {
+    static var isSuccess = true
     var test: Int = 0
 
     func testArgumentPattern(callback: (Int, Error?) -> Void) {
